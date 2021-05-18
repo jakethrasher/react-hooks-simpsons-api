@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Load = ({onClick}) =>(
+const Load = ({handleClick}) =>(
     <> 
-        <button onClick={onClick}>Get Quote</button>
+        <button onClick={handleClick}>Get Quote</button>
     </>
 );
 
